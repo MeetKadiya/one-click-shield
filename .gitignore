@@ -1,0 +1,63 @@
+﻿# ==========================================
+# Hackathon & Private Presentation Materials
+# ==========================================
+presentation/
+*.pptx
+*.key
+
+# ==========================================
+# Virtual Environments & Dependencies
+# ==========================================
+backend/venv/
+venv/
+env/
+.venv/
+node_modules/
+frontend/node_modules/
+
+# ==========================================
+# Build Artifacts & Generated Files
+# ==========================================
+dist/
+frontend/dist/
+build/
+*.egg-info/
+.eggs/
+shield-fixes/
+
+# ==========================================
+# Python Bytecode & Cache
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ==========================================
+# Databases & Local Logs
+# ==========================================
+*.db
+*.sqlite3
+backend/shield.db
+*.log
+
+# ==========================================
+# Environment Variables & IDE configs
+# ==========================================
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==========================================
+# OS Specific Files
+# ==========================================
+.DS_Store
+Thumbs.db
+desktop.ini
