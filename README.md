@@ -1,4 +1,4 @@
-﻿# 🛡️ One-Click Shield: Unified Web Security Scanner & Auto-Remediator
+# 🛡️ One-Click Shield: Unified Web Security Scanner & Auto-Remediator
 
 <div align="center">
 
@@ -14,7 +14,7 @@
 
 *Engineered for Kalpvruksh 2.0 Mini Hackathon 2026 • Problem Statement P18: Hidden SSL/TLS and Web Security Configuration Weaknesses*
 
-[🚀 Live Demo](#-deployment--hosting) • [✨ Key Features](#-key-features) • [🌐 Multi-Browser Matrix](#-multi-browser-compatibility--threat-matrix) • [⚡ Quick Start](#-quick-start) • [📋 Problem P18 Scope](#-problem-p18-vulnerability-matrix)
+[🚀 Live Demo](https://one-click-shield.onrender.com/) • [✨ Key Features](#-key-features) • [🌐 Multi-Browser Matrix](#-multi-browser-compatibility--threat-matrix) • [⚡ Quick Start](#-quick-start) • [📋 Problem P18 Scope](#-problem-p18-vulnerability-matrix)
 
 </div>
 
@@ -229,7 +229,7 @@ One-Click Shield includes a root **multi-stage `Dockerfile`** that builds both t
    * **Instance Type**: `Free` (`$0/month`)
    * **Environment Variables**: *Leave completely blank (zero secrets required!)*
 5. Click **Create Web Service**. Your live web application will be accessible at:
-   `https://<your-service-name>.onrender.com`
+   `https://one-click-shield.onrender.com/`
 
 ---
 
