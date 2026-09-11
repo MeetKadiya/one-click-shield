@@ -27,7 +27,8 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-engine = UnifiedScannerEngine(timeout=8.0)
+SCAN_TIMEOUT = float(os.getenv("TIMEOUT_SECONDS", "8.0"))
+engine = UnifiedScannerEngine(timeout=SCAN_TIMEOUT)
 
 # In-memory scan cache
 SCAN_CACHE: Dict[str, Dict[str, Any]] = {}

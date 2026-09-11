@@ -27,6 +27,7 @@ COPY backend/ ./backend/
 COPY --from=frontend-builder /app/frontend/dist /app/frontend/dist
 
 ENV PORT=8000
+ENV PYTHONUNBUFFERED=1
 EXPOSE 8000
 
 WORKDIR /app/backend
